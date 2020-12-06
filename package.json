@@ -1,0 +1,63 @@
+{
+  "name": "custom_structure",
+  "version": "1.0.0",
+  "description": "skeleton for node application",
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "dev-start": "nodemon index.js"
+  },
+  "author": "Dharmpal Chaudhary",
+  "license": "ISC",
+  "dependencies": {
+    "awilix": "^4.2.2",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "log4js": "^5.0.0",
+    "module-alias": "^2.2.1",
+    "multer": "^1.4.2",
+    "mysql2": "^1.7.0",
+    "nodemailer": "^6.3.0",
+    "passport": "^0.4.0",
+    "passport-headerapikey": "^1.1.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "ramda": "^0.26.1",
+    "sequelize": "^5.19.1",
+    "swagger-jsdoc": "^3.4.0",
+    "swagger-ui-express": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^23.6.0",
+    "nodemon": "^1.19.1",
+    "prettier": "1.18.2",
+    "sequelize-cli": "^5.5.1",
+    "supertest": "^4.0.2"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "always"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/public/"
+    ]
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@src": "./src"
+  }
+}
